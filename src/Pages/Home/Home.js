@@ -1,11 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import profilePic from "../../assets/Bayajid.jpg";
-import AboutMe from "../../components/AboutMe/AboutMe";
 import Education from "../../components/Education/Education";
 import Skills from "../../components/Skills/Skills";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
+import './Home.css';
 
 const Home = () => {
   const handleDwonloadResume = () => {};
@@ -57,9 +57,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
-      <section>
-        <AboutMe />
+
       </section>
 
       <section>
