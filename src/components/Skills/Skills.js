@@ -25,7 +25,7 @@ const mySkills = [
         <h1 className='text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500'>My Abilities And Proficiencies</h1>
     <div className='flex flex-wrap container mx-auto gap-6 w-1/2 py-8'>
       {
-        mySkills.map(skill=><p className='border border-white px-4 py-1 text-md rounded-full cursor-pointer hover:bg-blue-600'>{skill.name}</p>)
+        mySkills.map(skill=><p className='border border-white px-4 py-1 text-md rounded-full cursor-pointer hover:bg-blue-500'>{skill.name}</p>)
       }
     </div>
         
