@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <section id="home">
-        <div className="flex lg:flex-row justify-between container mx-auto py-20 items-center">
+        <div className="flex lg:flex-row justify-between w-2/3 mx-auto py-28 items-center">
           <div>
             <h1 className="text-4xl text-left font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-4">
               Bayajid Alam Joyel

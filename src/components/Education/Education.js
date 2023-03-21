@@ -1,14 +1,14 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaGraduationCap, FaSchool, FaUserGraduate } from 'react-icons/fa';
 
 const Education = () => {
   return (
-    <div id="education">
+    <div className="py-8" id="education">
       <div className="flex justify-center items-center">
         {/* <hr className="w-40 mr-2" /> */}
-        <span className="text-2xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Education</span>
+        <span className="text-3xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Education</span>
         {/* <hr className="w-40 ml-2" /> */}
       </div>
 
@@ -19,7 +19,7 @@ const Education = () => {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2021 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGraduationCap/>}
+    icon={<FaUserGraduate/>}
   >
     <h3 className="vertical-timeline-element-title">University</h3>
     <h4 className="vertical-timeline-element-subtitle">CCN University of Science & Technology</h4>
@@ -48,10 +48,10 @@ const Education = () => {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2016 - 2018"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGraduationCap/>}
+    icon={<FaSchool/>}
   >
     <h3 className="vertical-timeline-element-title">SSC</h3>
-    <h4 className="vertical-timeline-element-subtitle">Iqra Model School</h4>
+    <h4 className="vertical-timeline-element-subtitle">Bangodda Iqra Model School</h4>
     <p>
     Science
     </p>

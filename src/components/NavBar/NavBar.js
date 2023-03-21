@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/bayajid-logo.png";
 
 const NavBar = () => {
+
   const scroll = (id_name) => {
     const section = document.querySelector(`#${id_name}`);
     section.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -50,8 +51,8 @@ const NavBar = () => {
   );
 
   return (
-    <section>
-      <div className="navbar container mx-auto">
+    <section className="bg-[#0D1322] shadow-2xl">
+      <div className="navbar container mx-auto text-lg font-semibold">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
