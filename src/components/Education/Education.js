@@ -5,7 +5,7 @@ import { FaGraduationCap, FaSchool, FaUserGraduate } from 'react-icons/fa';
 
 const Education = () => {
   return (
-    <div className="py-8" id="education">
+    <div className="py-8 px-4" id="education">
       <div className="flex justify-center items-center">
         {/* <hr className="w-40 mr-2" /> */}
         <span className="text-3xl  font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Education</span>

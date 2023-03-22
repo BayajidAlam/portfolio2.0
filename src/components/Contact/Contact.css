@@ -1,9 +1,8 @@
 .containers.contact_container{
-  /* width: 58%; */
   width: 100%;
   display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
+  grid-template-columns: 35% 55%;
+  gap: 10%;
 }
 
 .contact_options{
@@ -66,6 +65,7 @@ input,textarea{
 @media screen and (max-width:600px) {
   .containers.contact_container{
     grid-template-columns: 1fr;
-    width: var(--container-width-sm);
+    width: 100%;
+    gap: 20px;
   }
 }
