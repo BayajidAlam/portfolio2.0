@@ -22,7 +22,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="py-16" id="#projects">
+    <div className="py-16" id="projects">
       <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-4 text-center">
         My projects
       </p>
