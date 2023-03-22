@@ -23,7 +23,7 @@ const mySkills = [
 ]
 
   return (
-    <div className='lg:py-28 py-6' id='skills'>
+    <div data-aos="zoom-in-up" className='lg:py-28 py-6' id='skills'>
         <h1 className='text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500'>My Abilities And Proficiencies</h1>
     <div className='flex flex-wrap container mx-auto gap-6 lg:w-1/2 py-8 px-5'>
       {

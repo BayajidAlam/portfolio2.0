@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
+
   // send client mail to my email
   const form = useRef();
   const sendEmail = (e) => {
@@ -28,8 +29,9 @@ const Contact = () => {
         }
       );
   };
+
   return (
-    <section className="w-2/3 mx-auto" id="contact">
+    <section data-aos="fade-up" className="w-2/3 mx-auto md:pb-16 lg:pb-0 pb-0" id="contact">
       <h5 className="text-center">Get In Touch</h5>
       <h2 className="text-2xl text-center py-4 text-blue-500 mb-4">Contact Me</h2>
 

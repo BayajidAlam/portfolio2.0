@@ -56,7 +56,7 @@ const Projects = () => {
         My projects
       </p>
 
-      <div className="lg:flex lg:w-2/3 mx-auto lg:pt-16 pt-4">
+      <div data-aos="zoom-in-up" className="lg:flex lg:w-2/3 mx-auto lg:pt-16 pt-4">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
           <img className="h-80 w-full" src={project1} alt="" />
         </div>
@@ -107,7 +107,7 @@ const Projects = () => {
       </div>
 
 
-      <div className="lg:flex lg:flex-row-reverse lg:w-2/3 mx-auto lg:pt-16 pt-4">
+      <div data-aos="zoom-in-up" className="lg:flex lg:flex-row-reverse lg:w-2/3 mx-auto lg:pt-16 pt-4">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
           <img className="h-80 w-full" src={project1} alt="" />
         </div>
@@ -154,7 +154,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex lg:w-2/3 mx-auto lg:pt-16 pt-4">
+
+      <div data-aos="zoom-in-up" className="lg:flex lg:w-2/3 mx-auto lg:pt-16 pt-4">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
           <img className="h-80 w-full" src={project1} alt="" />
         </div>

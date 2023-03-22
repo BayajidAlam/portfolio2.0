@@ -6,16 +6,23 @@ import Skills from "../../components/Skills/Skills";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 import './Home.css';
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const Home = () => {
   const handleDwonloadResume = () => {};
 
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in",
+    once: false
+  });
 
   return (
     <>
-      <section id="home">
+      <section className="mt-8 lg:mt-0"id="home">
         <div className="flex flex-col-reverse lg:flex-row justify-between px-4 lg:w-2/3 mx-auto lg:py-28 py-12 items-center">
-          <div>
+          <div data-aos="fade-right">
             <h1 className="text-4xl text-left font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-4">
               Bayajid Alam Joyel
             </h1>
@@ -51,7 +58,8 @@ const Home = () => {
               DOWNLOAD RESUME
             </button>
           </div>
-          <div className="max-w-sm w-80">
+
+          <div data-aos="fade-left" className="max-w-sm w-80">
             <img
               src={profilePic}
               className="w-full rounded-full  mb-4 lg:mb-0 hover:scale-110 transition duration-300 ease-in-out"

@@ -45,7 +45,7 @@ const NavBar = () => {
   );
 
   return (
-    <section className="bg-[#0D1322] shadow-2xl">
+    <section className="bg-[#0D1322] shadow-sm shadow-blue-300 fixed w-full top-0 z-50">
       <div className="navbar container mx-auto text-lg font-semibold">
         <div className="navbar-start">
           <div className="dropdown">
