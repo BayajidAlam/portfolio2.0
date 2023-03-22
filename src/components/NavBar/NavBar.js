@@ -18,12 +18,6 @@ const NavBar = () => {
         Home
       </Link>
       <Link
-        onClick={() => scroll("about")}
-        className="hover:bg-gray-700 hover:text-white px-6 text-white py-2 rounded-md text-sm font-medium uppercase"
-      >
-        About Me
-      </Link>
-      <Link
         onClick={() => scroll("education")}
         className="hover:bg-gray-700 hover:text-white px-6 text-white py-2 rounded-md text-sm font-medium uppercase"
       >

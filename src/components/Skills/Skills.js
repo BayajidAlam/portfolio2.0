@@ -17,6 +17,8 @@ const mySkills = [
   {name: "Express Js"},
   {name: "MongoDB"},
   {name: "JWt"},
+  {name: "Git & Github"},
+  {name: "REST API"},
   {name: "Firebase"}
 ]
 
