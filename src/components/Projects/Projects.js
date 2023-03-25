@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineLink } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
-import project1 from "../../assets/Bayajid.jpg";
+import project1 from "../../assets/Resume_Builder.jpg";
+import project2 from "../../assets/Sound_music.jpg";
+import project3 from "../../assets/Karata.jpg";
 
 const Projects = () => {
   const projectOneTech = [
@@ -109,7 +111,7 @@ const Projects = () => {
 
       <div data-aos="zoom-in-up" className="lg:flex lg:flex-row-reverse lg:w-2/3 mx-auto lg:pt-16 pt-4">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
-          <img className="h-80 w-full" src={project1} alt="" />
+          <img className="h-80 w-full" src={project2} alt="" />
         </div>
         <div className="lg:w-1/2">
           <div className="px-4 space-y-4">
@@ -157,7 +159,7 @@ const Projects = () => {
 
       <div data-aos="zoom-in-up" className="lg:flex lg:w-2/3 mx-auto lg:pt-16 pt-4">
         <div className="lg:w-1/2 mb-4 lg:mb-0">
-          <img className="h-80 w-full" src={project1} alt="" />
+          <img className="h-80 w-full" src={project3} alt="" />
         </div>
         <div className="lg:w-1/2">
           <div className="px-4 space-y-4">
