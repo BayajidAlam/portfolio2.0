@@ -8,6 +8,8 @@ import Contact from "../../components/Contact/Contact";
 import './Home.css';
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
+import { BsGithub,BsLinkedin,BsTwitter } from 'react-icons/bs';
 
 const Home = () => {
   const handleDwonloadResume = () => {};
@@ -20,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="mt-8 lg:mt-0"id="home">
+      <section className="mt-8 lg:mt-8"id="home">
         <div className="flex flex-col-reverse lg:flex-row justify-between px-4 lg:w-2/3 mx-auto lg:py-28 py-12 items-center">
           <div data-aos="fade-right">
             <h1 className="text-4xl text-left font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-4">
@@ -51,12 +53,26 @@ const Home = () => {
               />
             </div>
 
-            <button
+    
+             <button
               onClick={handleDwonloadResume}
               className="btn btn-primary rounded-none text-white bg-gradient-to-r from-cyan-500 to-blue-500 absolute hover:border-none"
             >
               DOWNLOAD RESUME
             </button>
+
+            <div className="flex items-center mt-20 gap-4 ml-8">
+              <Link target="_blank" to="https://github.com/BayajidAlam">
+                    <BsGithub className="text-3xl"/>
+              </Link>
+              <Link target="_blank" to="https://www.linkedin.com/in/bayajid-alam-joyel/">
+                    <BsLinkedin className="text-3xl"/>
+              </Link>
+              <Link target="_blank" to="https://twitter.com/bayajid_alam">
+                    <BsTwitter className="text-3xl"/>
+              </Link>
+            </div>
+      
           </div>
 
           <div data-aos="fade-left" className="max-w-sm w-80">
