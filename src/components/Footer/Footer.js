@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-scroll";
+
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { IoLogoTwitter } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,15 +10,15 @@ const Footer = () => {
       <h1 className="text-center font-bold text-2xl">Bayajid Alam Joyel</h1>
       <div className="flex items-center justify-center gap-4 py-4 cursor-pointer">
         <Link target="_blank" to="https://github.com/BayajidAlam">
-          <BsGithub className="text-3xl" />
+          <BsGithub className="text-2xl" />
         </Link>
-        <Link>
+        <Link target="_blank" to="https://www.linkedin.com/in/bayajid-alam-joyel/">
           <BsLinkedin className="text-2xl" />
         </Link>
-        <Link>
+        <Link target="_blank" to="https://www.facebook.com/bayajid2001">
           <BsFacebook className="text-2xl" />
         </Link>
-        <Link>
+        <Link target="_blank" to="https://twitter.com/bayajid_alam">
           <IoLogoTwitter className="text-2xl" />
         </Link>
       </div>
