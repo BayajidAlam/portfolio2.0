@@ -7,7 +7,7 @@ const Skills = () => {
 const mySkills = [
   {name: "Html"},
   {name: "Css"},
-  {name: "Scss"},
+  {name: "Sass"},
   {name: "Bootstrap"},
   {name: "Tailwind Css"},
   {name: "Javascript"},
@@ -16,6 +16,8 @@ const mySkills = [
   {name: "Node Js"},
   {name: "Express Js"},
   {name: "MongoDB"},
+  {name: "React-Redux"},
+  {name: "Redux-thunk"},
   {name: "JWt"},
   {name: "Git & Github"},
   {name: "REST API"},
